@@ -58,6 +58,7 @@
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-sleuth-api:3.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.9.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-sleuth-brave:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.brave:brave:5.13.2" level="project" />
     <orderEntry type="library" name="Maven: io.zipkin.brave:brave-context-slf4j:5.13.2" level="project" />
     <orderEntry type="library" name="Maven: io.zipkin.brave:brave-instrumentation-messaging:5.13.2" level="project" />
     <orderEntry type="library" name="Maven: io.zipkin.brave:brave-instrumentation-rpc:5.13.2" level="project" />
@@ -71,8 +72,6 @@
     <orderEntry type="library" name="Maven: io.zipkin.brave:brave-instrumentation-mongodb:5.13.2" level="project" />
     <orderEntry type="library" name="Maven: io.zipkin.aws:brave-propagation-aws:0.21.3" level="project" />
     <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-reporter-metrics-micrometer:2.16.1" level="project" />
-    <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-reporter:2.16.1" level="project" />
-    <orderEntry type="library" name="Maven: io.zipkin.zipkin2:zipkin:2.23.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:2.4.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:2.4.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:2.4.1" level="project" />
@@ -107,8 +106,13 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.security:spring-security-test:5.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:5.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.16" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.zipkin.brave:brave-context-log4j2:5.13.3" level="project" />
-    <orderEntry type="library" name="Maven: io.zipkin.brave:brave:5.13.2" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-zipkin:2.2.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-sleuth-zipkin:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.zipkin2:zipkin:2.23.0" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-reporter:2.16.1" level="project" />
     <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-reporter-brave:2.16.1" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-sender-kafka:2.16.1" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-sender-activemq-client:2.16.1" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-sender-amqp-client:2.16.1" level="project" />
   </component>
 </module>
